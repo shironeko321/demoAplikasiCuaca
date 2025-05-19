@@ -1,5 +1,4 @@
-// import 'package:demo/manage_location.dart';
-// import 'package:demo/manage_location.dart';
+import 'package:demo/themes/navy_blue.dart';
 import 'package:demo/views/main.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +11,6 @@ class Main extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: const MainApp());
+    return MaterialApp(theme: materialYouBlueNightTheme, home: const MainApp());
   }
 }
